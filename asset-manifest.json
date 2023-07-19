@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ChaitraliShinde/static/css/main.69440a66.css",
+    "main.js": "/ChaitraliShinde/static/js/main.63fff4a5.js",
+    "static/media/image.PNG": "/ChaitraliShinde/static/media/image.74040f076f6ef0de6755.PNG",
+    "static/media/touristapp.JPG": "/ChaitraliShinde/static/media/touristapp.ca23d04c016a1b6d721b.JPG",
+    "static/media/kickstartup.png": "/ChaitraliShinde/static/media/kickstartup.2ceaba1eea06071d7cf1.png",
+    "static/media/kira.svg": "/ChaitraliShinde/static/media/kira.592ca33dd9825f455956c26936a2fe7c.svg",
+    "static/media/tableau.svg": "/ChaitraliShinde/static/media/tableau.bf5ad8491b66a3eaf147e9af86a5b317.svg",
+    "index.html": "/ChaitraliShinde/index.html",
+    "main.69440a66.css.map": "/ChaitraliShinde/static/css/main.69440a66.css.map",
+    "main.63fff4a5.js.map": "/ChaitraliShinde/static/js/main.63fff4a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69440a66.css",
+    "static/js/main.63fff4a5.js"
+  ]
+}
