@@ -1,8 +1,8 @@
 
 import kickstartup from './assets/images/kickstartup.png'; // Tell webpack this JS file uses this image
-import touristapp from './assets/images/touristapp.jpg';
-import kira from './assets/images/kira.png';
-import tableau from './assets/images/tableau.jpg';
+import touristapp from './assets/images/touristapp.JPG';
+import kira from './assets/images/kira.svg';
+import tableau from './assets/images/tableau.svg';
 import profilePhoto from './assets/images/image.PNG';
 
 

@@ -5,11 +5,16 @@
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .po_item {
     display: inline-block;
-    width: 100%;
+    width: 40%;
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
