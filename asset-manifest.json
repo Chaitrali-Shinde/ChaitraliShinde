@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/ChaitraliShinde/static/css/main.5eb42785.css",
-    "main.js": "/ChaitraliShinde/static/js/main.980e7ab2.js",
+    "main.js": "/ChaitraliShinde/static/js/main.7292fb47.js",
     "static/media/pp4.jpeg": "/ChaitraliShinde/static/media/pp4.a06ff6869e432f82b10d.jpeg",
-    "static/media/touristapp.JPG": "/ChaitraliShinde/static/media/touristapp.ca23d04c016a1b6d721b.JPG",
+    "static/media/touristapp.jpg": "/ChaitraliShinde/static/media/touristapp.ca23d04c016a1b6d721b.jpg",
     "static/media/kickstartup.png": "/ChaitraliShinde/static/media/kickstartup.2ceaba1eea06071d7cf1.png",
     "static/media/kira.svg": "/ChaitraliShinde/static/media/kira.592ca33dd9825f455956c26936a2fe7c.svg",
     "static/media/tableau.svg": "/ChaitraliShinde/static/media/tableau.bf5ad8491b66a3eaf147e9af86a5b317.svg",
     "index.html": "/ChaitraliShinde/index.html",
     "main.5eb42785.css.map": "/ChaitraliShinde/static/css/main.5eb42785.css.map",
-    "main.980e7ab2.js.map": "/ChaitraliShinde/static/js/main.980e7ab2.js.map"
+    "main.7292fb47.js.map": "/ChaitraliShinde/static/js/main.7292fb47.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb42785.css",
-    "static/js/main.980e7ab2.js"
+    "static/js/main.7292fb47.js"
   ]
 }
