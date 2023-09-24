@@ -10,7 +10,33 @@
 .t_border {
     border-color: var(--text-color) !important;
 }
-
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2e4052;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    text-align: center;
+  }
+  
 .progress-title {
     font-size: 16px;
     font-weight: 700;

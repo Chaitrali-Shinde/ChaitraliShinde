@@ -21,10 +21,6 @@ const AnimatedRoutes = withRouter(({ location }) => (
     >
       <Routes location={location}>
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
@@ -35,6 +31,8 @@ function AppRoutes() {
     <div className="s_c">
       <AnimatedRoutes />
       <Socialicons />
+      
+     
     </div>
   );
 }

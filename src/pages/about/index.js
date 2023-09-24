@@ -9,10 +9,29 @@ import {
   skills,
   services,
 } from "../../content_option";
+import { FaJava,
+  FaPython,
+  FaJs,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3,
+  FaGit,
+  FaJira,
+  FaAws,
+  FaLinux,
+  FaDocker,
+  FaReact,
+  FaBootstrap,
+  FaDatabase, // Represents SQL, as there is no specific SQL icon in Font Awesome
+  FaYarn, } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { SiTypescript, SiSpring, SiBootstrap, SiTableau, SiDjango, SiJenkins, SiGooglecloud } from "react-icons/si";
+import { Card, Grid, Typography, Button } from "@mui/material";
+
 
 export const About = () => {
   return (
-    <HelmetProvider>
+    <section id="About" className="section">
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
@@ -31,6 +50,7 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
+              <h3 className="color_sec py-4">Hello!</h3>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
@@ -40,7 +60,7 @@ export const About = () => {
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
+            <table className=" caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
@@ -55,28 +75,18 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        {/* <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div>
-                      <div >{data.value}</div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+            <SkillsSection />
           </Col>
-        </Row>
+        </Row> */}
+        
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">education</h3>
+            <h3 className="color_sec py-4">Education</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -90,6 +100,39 @@ export const About = () => {
           </Col>
         </Row>
       </Container>
-    </HelmetProvider>
+    </section>
   );
 };
+const SkillsSection = () => {
+  const iconsSkills = [
+    { name: "Java", icon: <FaJava /> },
+    { name: "Python", icon: <FaPython /> },
+    { name: "JavaScript", icon: <FaJs /> },
+    { name: "Node.js", icon: <FaNodeJs /> },
+    { name: "HTML5", icon: <FaHtml5 /> },
+    { name: "CSS3", icon: <FaCss3 /> },
+    { name: "Git", icon: <FaGit /> },
+    { name: "AWS", icon: <FaAws /> },
+    { name: "Docker", icon: <FaDocker /> },
+    { name: "React JS", icon: <FaReact /> },
+    { name: "SQL", icon: <FaDatabase /> },
+    { name: "Tableau", icon: <SiTableau /> },
+    { name: "Django", icon: <SiDjango /> },
+    { name: "Spring-boot", icon: <SiSpring /> },
+
+    //... other skills
+  ];
+
+  
+  return (
+    <div className="skills-container">
+      {iconsSkills.map((data, i) => (
+        <div key={i} className="skill-item">
+          <span className="skill-icon">{data.icon}</span>
+          <span className="skill-name">{data.name}</span>
+        </div>
+      ))}
+    </div>
+  );
+  
+      }
